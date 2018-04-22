@@ -13,7 +13,7 @@ var fortunes = [
 var bot = new Discord.Client();
 
 bot.on("ready", function () {
-	bot.user.setPresence({ game: { name: 'sb!help | 1 server | StarBot Beta', type: 3 } });
+	bot.user.setPresence({ game: { name: 'sb!help | 2 servers | StarBot Beta', type: 3 } });
 	console.log("Ready");
 });
 
