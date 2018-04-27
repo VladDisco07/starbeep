@@ -7,13 +7,13 @@ var fortunes = [
     "Yes",
 	"No",
 	"Maybe",
-	"I don't know"
+	"I don't know"H
 ];
 
 var bot = new Discord.Client();
 
 bot.on("ready", function () {
-	bot.user.setPresence({ game: { name: 'sb!help | 2 servers | StarBot Beta', type: 3 } });
+	bot.user.setPresence({ game: { name: 'sb!help | 2 servers | HackerLand Rewritten', type: 3 } });
 	console.log("Ready");
 });
 
@@ -51,7 +51,7 @@ bot.on("message", function(message) {
 			   .addField("Members:", message.guild.memberCount, true)
 			   .addField("Name:", message.guild.name, true)
 			   .addField("Region:", message.guild.region, true)
-			   .addField("Owner", message.guild.owner, true)
+			   .addField("Owner", message.guild.owner, true)cker
 			   .addField("ID:", message.guild.id, true)
 			   .setColor("ff0000")
 			   .setThumbnail(message.guild.iconURL)
